@@ -1,0 +1,150 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react {
+  animation: logo-spin infinite 20s linear;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.logo {
+  transition: filter 300ms;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.logo {
+  animation: logo-spin infinite 15s linear;
+}
+
+.html {
+  transition: filter 300ms;
+  animation: bounce-up-down 2s infinite ease-in-out;
+}
+
+@keyframes bounce-up-down {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px); 
+  }
+  100% {
+    transform: translateY(0px); 
+  }
+}
+
+
+.js { 
+  transition: filter 300ms;
+  animation: scale-up-down 2s infinite ease-in-out;
+}
+
+@keyframes scale-up-down {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* একটু বড় হবে */
+  }
+  100% {
+    transform: scale(1); /* আবার আগের সাইজে ফিরে আসবে */
+  }
+}
+
+.tailwind { 
+  transition: filter 300ms;
+  animation: slight-rotate 2s infinite ease-in-out;
+}
+
+@keyframes slight-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg); /* একটু ঘুরবে */
+  }
+  100% {
+    transform: rotate(0deg); /* আবার আগের অবস্থায় আসবে */
+  }
+}
+
+
+
+
+.shadow {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .button-border{
+  border: 2px solid;
+  border-image: linear-gradient(to right, rgb(183, 54, 243), rgb(238, 119, 7)) 1;
+  border-radius: 20%;
+} */
+
+.button-border {
+  border: 2px solid;
+  border-image: linear-gradient(to right, rgb(183, 54, 243), rgb(238, 119, 7)) 1;
+  border-radius: 0.5rem;
+  /* match Tailwind's rounded-lg */
+  background-clip: padding-box;
+}
+
+.hero-bg {
+  background: #faf2c3;
+  background: linear-gradient(90deg, rgba(250, 242, 195, 1) 0%, rgba(255, 253, 254, 1) 50%, rgba(234, 213, 233, 1) 100%);
+}
+
+
